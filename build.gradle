@@ -23,7 +23,3 @@ task groovyJDK << {
       println "${it}" 
    };
 }
-
-task printBuildInfo << {
-	println project.buildDir
-}
